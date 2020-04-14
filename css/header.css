@@ -1,0 +1,93 @@
+header {
+    background: url(../assets/img/Header.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header nav {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: .9fr .1fr;
+}
+
+.burger-button {
+    display: none;
+}
+
+.nav-logo img {
+    height: 63px;
+}
+
+
+
+header nav div ul {
+    display: flex;
+    font-size: 21px;
+}
+
+header nav div ul li {
+    list-style: none;
+    margin-right: 20px;
+    color: #6BF2F2;
+    display: block;
+}
+
+header nav div ul li a {
+    text-decoration: none;
+    color: #6BF2F2;
+}
+
+header nav div ul li a:hover {
+    text-decoration: underline;
+}
+
+#categories {
+    cursor: pointer;
+}
+
+
+.categories-links {
+    height: 140px;
+    width: 230px;
+    display: none;
+    background: #f8f8f8;
+    position: absolute;
+    right: 110px;
+}
+
+#categories:hover .categories-links, .categories-links:hover {
+    display: grid;
+}
+
+.categories-links a {
+    padding: 10px;
+    width: auto;
+    border-bottom: 1px solid #6BF2F2;
+}
+
+.categories-links a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .burger-button {
+        display: block;
+        background-color: #6BF2F2;
+        height: 20px;
+        width: 20px;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .is-active {
+        display: flex;
+    }
+}

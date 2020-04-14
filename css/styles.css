@@ -1,0 +1,105 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F8F8F8;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #6BF2F2;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.p-1 {
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.p-2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.small-1 {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.small-2 {
+    font-size: 9px;
+    font-weight: normal;
+}
+
+/* ? Buttons */
+
+.btn-1 {
+    font-size: 21px;
+    padding: 10px 30px;
+    border: 1px solid #6BF2F2;
+    color: #6BF2F2;
+    background: none;
+}
+
+.btn-2 {
+    font-size: 21px;
+    padding: 10px 30px;
+    border: none;
+    color: #F8F8F8;
+    background: #6BF2F2;
+}
+
+/* ! rows & Grid Sistem */
+
+main {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+}
+
+.row-item {
+    width: 100%;
+    text-align: center;
+}
+
+.row-item-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.row-item-text {
+    color: #8C706D;
+}
+
+@media screen and (max-width: 1440px) {
+    main {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

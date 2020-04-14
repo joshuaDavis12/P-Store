@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="burger-button">
+
+            </div>
+            
+            <div class="nav-logo">
+                <img src="../assets/Logo/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="nav-ul">
+                    <li>
+                        <a href="../index.html">HOME</a>
+                    </li>
+                    <li id="categories">
+                        <span>CATEGORÍAS</span>
+
+                        <div class="categories-links">
+                            <a href="categorias-perros.html">Perros</a>
+                            <a href="categorias-gatos.html">Gatos</a>
+                            <a href="categorias-ternuras.html">Pequeñas Ternuras</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Gatos</h1>
+
+        <div class="row">
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/erik-jan-leusink-IbPxGLgJiMI-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/michael-sum-LEpfefQf4rU-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/willian-justen-de-vasconcellos-1hBWrLIDSCc-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/erik-jan-leusink-IbPxGLgJiMI-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/michael-sum-LEpfefQf4rU-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/willian-justen-de-vasconcellos-1hBWrLIDSCc-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/erik-jan-leusink-IbPxGLgJiMI-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/michael-sum-LEpfefQf4rU-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/willian-justen-de-vasconcellos-1hBWrLIDSCc-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/erik-jan-leusink-IbPxGLgJiMI-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/michael-sum-LEpfefQf4rU-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+
+            <div class="row-item">
+                <img class="row-item-img" src="../assets/img/willian-justen-de-vasconcellos-1hBWrLIDSCc-small-version.jpg">
+
+                <h3 class="row-item-text">Gato</h3>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        var burger = document.querySelector('.burger-button')
+        var ul = document.querySelector('.nav-ul')
+
+        burger.addEventListener("click", toogleClass(ul))
+
+        function toogleClass(ul) {
+            if (ul.classList.contains('is-active')) {
+                ul.classList.remove('is-active')
+            } else {
+                ul.classList.remove('is-active')
+            }
+        }
+    </script>
+</body>
+</html>
