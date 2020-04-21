@@ -1,0 +1,182 @@
+footer {
+    width: auto;
+    background: #BBF2F2;
+    height: 200px;
+}
+
+footer .footer-container {
+    width: 70vw;
+    height: 120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+}
+
+figure {
+    margin: 0;
+    margin-top: 40px;
+}
+
+figure img {
+    height: 120px;
+}
+
+.footer-container .form-container {
+    margin-top: 40px;
+}
+
+p {
+    color: #8C706D;
+}
+
+form {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+}
+
+form input {
+    width: 60%;
+    height: 25px;
+    padding: 10px 20px 10px 15px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #8C706D;
+    font-size: 16px;
+}
+
+form input::placeholder {
+    color: #6BF2F2;
+}
+
+form button {
+    color: #f8f8f8;
+    background: #8C706D;
+    border: none;
+    height: 50px;
+    width: 30%;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+    footer .footer-container {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        height: 150px;
+    }
+
+    .footer-container .form-container {
+        margin-top: 15px;
+    }
+
+    form .footer-container {
+        grid-template-columns: 1fr 200px;
+    }
+
+    figure img {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        height: 325px;
+        padding-top: 70px;
+    }
+
+    footer .footer-container {
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    figure {
+        width: min-content;
+        margin: 0 auto;
+    }
+    
+    .footer-container .form-container {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    form input {
+        padding: 10px 6% 10px 15px;
+    }
+
+    button {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    footer .footer-container {
+        width: 400px;
+    }
+
+    form input {
+        padding-right: 5%;
+    }
+
+    figure img {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    footer .footer-container {
+        width: 370px;
+    }
+
+    form input {
+        padding-right: 4%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer .footer-container {
+        width: 300px;
+    }
+
+    form input {
+        padding-right: 3%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    footer {
+        padding: 40px;
+    }
+
+    footer .footer-container {
+        width: 200px;
+    }
+
+    form {
+        display: block;
+        background: none;
+    }
+
+    form input {
+        background: #f8f8f8;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    form button {
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        width: min-content;
+    }
+}

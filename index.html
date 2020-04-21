@@ -7,15 +7,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/burger-button.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div>
-                <img class="nav-logo" src="../assets/Logo/logo.png" alt="">
+            <div class="burger-button">
+
+            </div>
+            
+            <div class="nav-logo">
+                <img src="../assets/Logo/logo.png" alt="">
             </div>
             <div>
-                <ul>
+                <ul class="nav-ul">
                     <li>
                         <a href="../index.html">HOME</a>
                     </li>
@@ -23,15 +29,148 @@
                         <span>CATEGORÍAS</span>
 
                         <div class="categories-links">
-                            <a href="categorias/categorias-perros.html">Perros</a>
                             <a href="categorias/categorias-gatos.html">Gatos</a>
-                            <a href="#">Pequeñas Ternuras</a>
+                            <a href="categorias/categorias-ternuras.html">Pequeñas Ternuras</a>
+                            <a href="categorias/categorias-gatos.html">Perros</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+
+    <main>
+        <h1>Popular</h1>
+
+        <div class="row">
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/ricky-kharawala-adK3Vu70DEQ-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Hamster
+                </h3>
+            </div>
+
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/berkay-gumustekin-ngqyo2AYYnE-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Perro
+                </h3>
+            </div>
+
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/nigel-tadyanehondo-DnCAASEYNdM-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Pastor alemán
+                </h3>
+            </div>
+        </div>
+
+        <h1>Perros</h1>
+
+        <div class="row">
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/matthew-henry-6x-hVXXiBxs-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Pug
+                </h3>
+            </div>
+
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/marcus-wallis-4zfacTKyZ7w-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Perro
+                </h3>
+            </div>
+
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/jaycee-xie-TcByXvrIrno-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Perro
+                </h3>
+            </div>
+        </div>
+
+        <h1>Gatos</h1>
+
+        <div class="row">
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/michael-sum-LEpfefQf4rU-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Gato
+                </h3>
+            </div>
+
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/erik-jan-leusink-IbPxGLgJiMI-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Gato
+                </h3>
+            </div>
+
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/willian-justen-de-vasconcellos-1hBWrLIDSCc-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Gato
+                </h3>
+            </div>
+        </div>
+
+        <h1>Pequeñas Ternuras</h1>
+
+        <div class="row">
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/neonbrand-ldYjXk8oJ4E-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Conejo
+                </h3>
+            </div>
+
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/chan-swan-NKyl19P5IHg-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Hamster
+                </h3>
+            </div>
+
+            <div class="row-item home">
+                <img class="row-item-img" src="assets/img/olivia-fleur-hRE-CfZaeCA-small-version.jpg" alt="">
+                
+                <h3 class="row-item-text">
+                    Conejo
+                </h3>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <figure>
+                <img src="assets/Logo/logo-black.png">
+            </figure>
+
+            <div class="form-container">
+                <p class="p-2">
+                    Suscríbete para recibir noticias y ofertas especiales
+                </p>
+
+                <form>
+                    <input type="text" placeholder="E-mail">
+                    <button>Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
 
